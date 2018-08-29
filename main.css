@@ -101,7 +101,7 @@ nav a{
 	padding: 40px;
 }
 
-.quality h2{
+.quality h2, .season h2{
 	text-transform: uppercase;
 	color: #55694f;
 	font-size: 1rem;
@@ -109,11 +109,11 @@ nav a{
 }
 
 .quality p{
-	width: 55%;
+	max-width: 450px;
 	align-self: center;
 }
 
-.quality a{
+.quality a, .season a{
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 10px;
@@ -125,4 +125,30 @@ nav a{
 	text-align: center;
 	margin: 15px;
 	align-self: center;
+	font-weight: 400;
+}
+
+.season{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	padding: 40px;
+	background-color: #f5f4f0;
+}
+
+.images img{
+	height: 100%;
+	max-height: 175px;
+	padding:30px;
+}
+
+footer{
+	text-align: center;
+	padding: 30px;
+	color: #55694f;
+	line-height: 1.6;
+}
+
+footer p{
+	font-weight: 300;
 }
