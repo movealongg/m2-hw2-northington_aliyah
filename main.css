@@ -1,5 +1,6 @@
 /* COLORS
 #55694f green
+#8fb765 lime green
 #e74155 red
 #feffff white
 #f5f4f0 gray
@@ -117,8 +118,8 @@ nav a{
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 10px;
-	color: #e74155;
-	border: 3px solid #e74155;
+	color: #8fb765;
+	border: 3px solid #8fb765;
 	min-width: 100px;
 	height: auto;
 	border-radius: 5px;
