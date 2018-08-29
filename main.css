@@ -5,7 +5,7 @@
 #f5f4f0 gray
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 * {
 	font-family: 'Roboto', sans-serif;
@@ -16,6 +16,7 @@
 
 body{
 	font-size: 16px;
+	background-color: #feffff;
 }
 
 .contact-top{
@@ -85,10 +86,43 @@ nav a{
 	padding: 10px;
 	color: #feffff;
 	border: 3px solid #feffff;
-	min-width: 90px;
+	min-width: 100px;
 	height: auto;
 	border-radius: 5px;
 	text-align: center;
 	margin: 10px;
 }
 
+.quality{
+	font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 40px;
+}
+
+.quality h2{
+	text-transform: uppercase;
+	color: #55694f;
+	font-size: 1rem;
+	padding-bottom: 8px;
+}
+
+.quality p{
+	width: 55%;
+	align-self: center;
+}
+
+.quality a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	color: #e74155;
+	border: 3px solid #e74155;
+	min-width: 100px;
+	height: auto;
+	border-radius: 5px;
+	text-align: center;
+	margin: 15px;
+	align-self: center;
+}
