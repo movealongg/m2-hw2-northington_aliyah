@@ -27,3 +27,39 @@
 .contact-top span{
 	padding: 0 15px;
 }
+
+nav{
+	display: flex;
+	padding: 0 4rem;
+	justify-content: space-between;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+}
+
+nav li{
+	padding: 10px;
+}
+
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 10px;
+	color: #55694f;
+	border: 3px solid #55694f;
+	min-width: 90px;
+	border-radius: 5px;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+#logo{
+	max-width: 250px;
+	width: 100%;
+	align-self: center;
+}
+
+
